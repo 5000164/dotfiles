@@ -43,13 +43,11 @@ set undodir=~/.vim/tmp
 
 syntax enable
 set t_Co=256
-set cursorline
-set cursorcolumn
 
 set guifont=Font\ Ricty\ 12
 set guifontwide=Font\ Ricty\ 12
-colorscheme hybrid
-autocmd BufRead *.html colorscheme industry
+autocmd BufRead,FileReadPost,FilterReadPost * colorscheme hybrid
+autocmd BufRead,FileReadPost,FilterReadPost *.html colorscheme industry
 
 set number
 set ruler
@@ -58,7 +56,6 @@ set laststatus=2
 set cmdheight=2
 set showmatch
 set helpheight=999
-set list
 
 set expandtab
 set tabstop=2
