@@ -19,10 +19,11 @@ NeoBundle 'Shougo/vimproc', {
   \ },
   \ }                                           " 非同期処理のためのもの？よくわかってない
 NeoBundle 'Shougo/unite.vim'                    " いい感じにリストを出してくれるもの？よくわかってない
+NeoBundle 'Shougo/vimfiler.vim'                 " ファイラー
 NeoBundle 'ujihisa/unite-colorscheme'           " Uniteでcolorschemeコマンドが使えるもの？よくわかってない
-NeoBundle 'w0ng/vim-hybrid'                     " メインカラースキーム
-NeoBundle 'industry.vim'                        " HTML用カラースキーム
 NeoBundle 'vim-scripts/vim-auto-save'           " ファイルの自動保存
+
+NeoBundle 'w0ng/vim-hybrid'                     " カラースキーム
 
 call neobundle#end()
 
@@ -41,13 +42,13 @@ set backupdir=~/.vim/tmp
 set undofile
 set undodir=~/.vim/tmp
 
+filetype on
 syntax enable
 set t_Co=256
 
 set guifont=Font\ Ricty\ 12
 set guifontwide=Font\ Ricty\ 12
-autocmd BufRead,FileReadPost,FilterReadPost * colorscheme hybrid
-autocmd BufRead,FileReadPost,FilterReadPost *.html colorscheme industry
+colorscheme hybrid
 
 set number
 set ruler
