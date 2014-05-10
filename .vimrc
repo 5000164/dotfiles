@@ -34,7 +34,7 @@ NeoBundleLazy 'alpaca-tc/beautify.vim', {
   \     }
   \   ]
   \ }
-  \ }
+  \ }                                           " HTML整形
 
 call neobundle#end()
 
