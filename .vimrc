@@ -25,6 +25,17 @@ NeoBundle 'vim-scripts/vim-auto-save'           " ファイルの自動保存
 NeoBundle 'ujihisa/unite-colorscheme'           " Uniteでcolorschemeコマンドが使えるもの？よくわかってない
 NeoBundle 'w0ng/vim-hybrid'                     " カラースキーム
 
+NeoBundleLazy 'alpaca-tc/beautify.vim', {
+  \ 'autoload' : {
+  \   'commands' : [
+  \     {
+  \       'name' : 'Beautify',
+  \       'complete' : 'customlist,beautify#complete_options'
+  \     }
+  \   ]
+  \ }
+  \ }
+
 call neobundle#end()
 
 filetype plugin indent on
@@ -67,7 +78,7 @@ set smartindent
 
 " lightline用設定
 let g:lightline = {
-  \ 'colorscheme': 'wombat'
+  \ 'colorscheme' : 'wombat'
   \ }
 
 " vim-auto-save用設定
