@@ -65,6 +65,11 @@ set softtabstop=2
 set autoindent
 set smartindent
 
+" lightline用設定
+let g:lightline = {
+  \ 'colorscheme': 'wombat'
+  \ }
+
 " vim-auto-save用設定
 let g:auto_save=1
 
