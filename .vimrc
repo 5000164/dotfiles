@@ -54,7 +54,7 @@ set number
 set ruler
 set showcmd
 set laststatus=2
-set cmdheight=2
+set cmdheight=1
 set showmatch
 set helpheight=999
 
