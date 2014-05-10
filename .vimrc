@@ -20,9 +20,9 @@ NeoBundle 'Shougo/vimproc', {
   \ }                                           " 非同期処理のためのもの？よくわかってない
 NeoBundle 'Shougo/unite.vim'                    " いい感じにリストを出してくれるもの？よくわかってない
 NeoBundle 'Shougo/vimfiler.vim'                 " ファイラー
-NeoBundle 'ujihisa/unite-colorscheme'           " Uniteでcolorschemeコマンドが使えるもの？よくわかってない
+NeoBundle 'itchyny/lightline.vim'               " ステータスライン変更
 NeoBundle 'vim-scripts/vim-auto-save'           " ファイルの自動保存
-
+NeoBundle 'ujihisa/unite-colorscheme'           " Uniteでcolorschemeコマンドが使えるもの？よくわかってない
 NeoBundle 'w0ng/vim-hybrid'                     " カラースキーム
 
 call neobundle#end()
