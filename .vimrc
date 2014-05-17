@@ -57,8 +57,8 @@ filetype on
 syntax enable
 set t_Co=256
 
-set guifont=Font\ Ricty\ 12
-set guifontwide=Font\ Ricty\ 12
+set guifont=Ricty\ 12
+set guifontwide=Ricty\ 12
 colorscheme hybrid
 
 set number
