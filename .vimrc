@@ -25,6 +25,7 @@ NeoBundle 'vim-scripts/vim-auto-save'           " ファイルの自動保存
 NeoBundle 'ujihisa/unite-colorscheme'           " Uniteでcolorschemeコマンドが使えるもの？よくわかってない
 NeoBundle 'w0ng/vim-hybrid'                     " カラースキーム
 
+NeoBundleLazy 'stephpy/vim-php-cs-fixer'        " PHP整形
 NeoBundleLazy 'alpaca-tc/beautify.vim', {
   \ 'autoload' : {
   \   'commands' : [
@@ -83,4 +84,16 @@ let g:lightline = {
 
 " vim-auto-save用設定
 let g:auto_save=1
+
+" PHP Coding Standards Fixer用設定
+let g:php_cs_fixer_path = "php-cs-fixer"
+let g:php_cs_fixer_level = "all"
+let g:php_cs_fixer_config = "default"
+let g:php_cs_fixer_php_path = "php"
+"let g:php_cs_fixer_fixers_list = "linefeed,short_tag,indentation"
+let g:php_cs_fixer_enable_default_mapping = 1
+let g:php_cs_fixer_dry_run = 0
+let g:php_cs_fixer_verbose = 0
+nnoremap <silent><leader>pcd :call PhpCsFixerFixDirectory()<CR>
+nnoremap <silent><leader>pcf :call PhpCsFixerFixFile()<CR>
 
