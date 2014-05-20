@@ -67,7 +67,6 @@ set ruler
 set showcmd
 set laststatus=2
 set cmdheight=1
-set showmatch
 set helpheight=999
 
 set expandtab
@@ -76,6 +75,8 @@ set shiftwidth=2
 set softtabstop=2
 set autoindent
 set smartindent
+
+let loaded_matchparen = 1     " 対応する括弧のハイライトを表示しない
 
 " lightline用設定
 let g:lightline = {
