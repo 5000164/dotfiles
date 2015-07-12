@@ -1,0 +1,7 @@
+japanese-wrap
+sublime-style-column-selection
+highlight-selected
+minimap
+minimap-autohide
+minimap-git-diff
+minimap-highlight-selected
