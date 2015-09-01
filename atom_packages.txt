@@ -5,3 +5,4 @@ minimap
 minimap-autohide
 minimap-git-diff
 minimap-highlight-selected
+file-icons
