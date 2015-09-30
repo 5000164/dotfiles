@@ -6,3 +6,5 @@ minimap-autohide
 minimap-git-diff
 minimap-highlight-selected
 file-icons
+atom-beautify
+pretty-json
