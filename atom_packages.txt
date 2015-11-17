@@ -1,4 +1,3 @@
-japanese-wrap
 sublime-style-column-selection
 highlight-selected
 minimap
