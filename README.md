@@ -1,21 +1,21 @@
-dotfiles
-===
+# dotfiles
 
-.vimrc
----
-あんまりちゃんとやってない
+## .vimrc
 
-atom_packages.txt
----
-アトム用のパッケージ
+あんまりちゃんとやってない。
+
+## atom_packages.txt
+
+アトム用のパッケージ。
+最近使っていない。
 
 ```
 apm install --packages-file atom_packages.txt
 ```
 
-homebrew_update.sh
----
-Homebrew に関するものをアップデート
+## homebrew_update.sh
+
+Homebrew に関するものをアップデート。
 
 ```
 ./homebrew_update.sh
