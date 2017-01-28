@@ -1,0 +1,2 @@
+" ビープ音を鳴らさないようにする
+set visualbell t_vb=
