@@ -1,9 +1,0 @@
-Sublime-Style-Column-Selection
-atom-beautify
-file-icons
-highlight-selected
-minimap
-minimap-autohide
-minimap-git-diff
-minimap-highlight-selected
-pretty-json
