@@ -1,6 +1,10 @@
 # dotfiles
 
+- .bash_profile
+    - bash の設定
 - .ideavimrc
-    - IntelliJ IDEA の ideaVim 用の設定
+    - IntelliJ IDEA の ideaVim の設定
 - .tmux.conf
-    - tmux 用の設定
+    - tmux の設定
+- Brewfile
+    - Homebrew でインストールするパッケージ
