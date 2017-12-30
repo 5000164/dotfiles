@@ -1,5 +1,7 @@
 # dotfiles
 
+## 各ファイルの説明
+
 - .bash_profile
     - bash の設定
 - .ideavimrc
@@ -8,3 +10,10 @@
     - tmux の設定
 - Brewfile
     - Homebrew でインストールするパッケージ
+
+## Brewfile の生成方法
+
+```bash
+rm Brewfile
+brew bundle dump
+```
