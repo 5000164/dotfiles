@@ -15,3 +15,6 @@ function share_history {
 PROMPT_COMMAND='share_history'
 shopt -u histappend
 export HISTSIZE=9999
+
+# Rust を使えるようにする
+export PATH="$HOME/.cargo/bin:$PATH"
