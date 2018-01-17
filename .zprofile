@@ -29,4 +29,7 @@ setopt extended_history
 export PATH=$PATH:/Users/hiroshi/Library/Android/sdk/platform-tools
 
 # Rust を使えるようにする
-export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=$HOME/.cargo/bin:$PATH
+
+# nodebrew を使えるようにする
+export PATH=$HOME/.nodebrew/current/bin:$PATH
