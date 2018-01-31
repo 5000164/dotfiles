@@ -1,6 +1,8 @@
 # zplug 用
 source /usr/local/opt/zplug/init.zsh
 
+# zsh プラグイン
+
 # プロンプトの見た目を見やすくする
 zplug mafredri/zsh-async, from:github
 zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
@@ -19,6 +21,7 @@ bindkey '^[[B' history-substring-search-down
 # 入力している内容からコマンド候補を提示する
 zplug "zsh-users/zsh-autosuggestions"
 
+# zplug 用
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
