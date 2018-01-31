@@ -8,21 +8,21 @@ zplug mafredri/zsh-async, from:github
 zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 
 # よく使用するディレクトリにすぐ移動する
-zplug 'mfaerevaag/wd', as:command, use:"wd.sh", hook-load:"wd() { . $ZPLUG_REPOS/mfaerevaag/wd/wd.sh }"
+zplug "mfaerevaag/wd", as:command, use:"wd.sh", hook-load:"wd() { . $ZPLUG_REPOS/mfaerevaag/wd/wd.sh }"
 
 # コマンドに色を付ける
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 # 入力している内容でヒストリーサーチする
 zplug "zsh-users/zsh-history-substring-search"
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
+bindkey "^[[A" history-substring-search-up
+bindkey "^[[B" history-substring-search-down
 
 # 入力している内容からコマンド候補を提示する
 zplug "zsh-users/zsh-autosuggestions"
 
 # zplug 用
-zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+zplug "zplug/zplug", hook-build:"zplug --self-manage"
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
     if read -q; then
@@ -33,16 +33,16 @@ zplug load --verbose
 
 # zsh-autosuggestions の文字を明るくする
 # 設定を上書きするためにプラグインの読み込みの後に設定している
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=242'
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=242"
 
 # 補完機能を有効化する
 autoload -U compinit
 compinit
 
 # ls コマンドを置き換える
-alias ls='exa'
-alias ll='exa -l'
-alias lt='exa -lT'
+alias ls="exa"
+alias ll="exa -l"
+alias lt="exa -lT"
 
 # rbenv 用
 eval "$(rbenv init -)"
