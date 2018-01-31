@@ -1,5 +1,10 @@
 # zplug 用
 source /usr/local/opt/zplug/init.zsh
+
+# プロンプトの見た目を見やすくする
+zplug mafredri/zsh-async, from:github
+zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
+
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
