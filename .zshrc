@@ -21,6 +21,9 @@ bindkey "^[[B" history-substring-search-down
 # 入力している内容からコマンド候補を提示する
 zplug "zsh-users/zsh-autosuggestions"
 
+# サードパーティ製のコマンドの補完ファイル
+zplug "zsh-users/zsh-completions"
+
 # zplug 用
 zplug "zplug/zplug", hook-build:"zplug --self-manage"
 if ! zplug check --verbose; then
