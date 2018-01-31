@@ -16,6 +16,9 @@ zplug "zsh-users/zsh-history-substring-search"
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+# 入力している内容からコマンド候補を提示する
+zplug "zsh-users/zsh-autosuggestions"
+
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -24,6 +27,10 @@ if ! zplug check --verbose; then
     fi
 fi
 zplug load --verbose
+
+# zsh-autosuggestions の文字を明るくする
+# 設定を上書きするためにプラグインの読み込みの後に設定している
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=242'
 
 # 補完機能を有効化する
 autoload -U compinit
