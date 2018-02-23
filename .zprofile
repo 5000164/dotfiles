@@ -33,3 +33,6 @@ export PATH=$HOME/.cargo/bin:$PATH
 
 # nodebrew を使えるようにする
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# jEnv 用
+export PATH="$HOME/.jenv/bin:$PATH"
