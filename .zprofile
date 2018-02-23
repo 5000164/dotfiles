@@ -36,3 +36,11 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # jEnv 用
 export PATH="$HOME/.jenv/bin:$PATH"
+
+# svm 用
+export SCALA_HOME=~/.svm/current/rt
+export PATH=$SCALA_HOME/bin:$PATH
+
+# coreutils 用
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
