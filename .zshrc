@@ -42,6 +42,9 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=242"
 autoload -U compinit
 compinit
 
+# コマンドラインでも # 以降をコメントと見なす
+setopt INTERACTIVE_COMMENTS
+
 # ls コマンドを置き換える
 alias ls="exa"
 alias ll="exa -l"
