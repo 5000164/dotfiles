@@ -21,10 +21,11 @@ bindkey "^[[B" history-substring-search-down
 # 入力している内容からコマンド候補を提示する
 zplug "zsh-users/zsh-autosuggestions"
 
-# サードパーティ製のコマンドの補完ファイル
+# サードパーティ製のコマンドを補完する
 zplug "zsh-users/zsh-completions"
 
 # zplug 用
+# 最後に実行する必要がある
 zplug "zplug/zplug", hook-build:"zplug --self-manage"
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
