@@ -24,6 +24,9 @@ zplug "zsh-users/zsh-autosuggestions"
 # サードパーティ製のコマンドを補完する
 zplug "zsh-users/zsh-completions"
 
+# ディレクトリを移動しやすくする
+zplug "b4b4r07/enhancd", use:init.sh
+
 # zplug 用
 # 最後に実行する必要がある
 zplug "zplug/zplug", hook-build:"zplug --self-manage"
