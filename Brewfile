@@ -1,6 +1,6 @@
-tap "homebrew/science"
-tap "homebrew/core"
 tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/science"
 brew "openssl"
 brew "awscli"
 brew "bashdb"
