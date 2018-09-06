@@ -5,7 +5,7 @@ brew "bashdb"
 brew "coreutils"
 brew "exa"
 brew "fzy"
-brew "gnu-sed"
+brew "gnu-sed", args: ["with-default-names"]
 brew "libtool"
 brew "graphviz"
 brew "hugo"
