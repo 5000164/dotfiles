@@ -51,8 +51,5 @@ alias ls="exa"
 alias ll="exa -l"
 alias lt="exa -lT"
 
-# rbenv 用
-eval "$(rbenv init -)"
-
 # jEnv 用
 eval "$(jenv init -)"
