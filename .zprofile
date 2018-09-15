@@ -28,3 +28,6 @@ export PATH="$HOME/.jenv/bin:$PATH"
 # coreutils 用
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+# Rust 用
+export PATH="$HOME/.cargo/bin:$PATH"
