@@ -24,15 +24,15 @@ zplug "zsh-users/zsh-completions"
 # ディレクトリを移動しやすくする
 zplug "b4b4r07/enhancd", use:init.sh
 
-# zplug 用
-# 最後に実行する必要がある
-zplug "zplug/zplug", hook-build:"zplug --self-manage"
+# 未インストール項目をインストールする
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
     if read -q; then
         echo; zplug install
     fi
 fi
+
+# コマンドをリンクして、PATH に追加し、プラグインは読み込む
 zplug load --verbose
 
 # zsh-autosuggestions の文字を明るくする
