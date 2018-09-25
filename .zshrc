@@ -4,8 +4,8 @@ source /usr/local/opt/zplug/init.zsh
 # zsh プラグイン
 
 # プロンプトの見た目を見やすくする
-zplug mafredri/zsh-async, from:github
-zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
+zplug "mafredri/zsh-async", from:github
+zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
 # コマンドに色を付ける
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
