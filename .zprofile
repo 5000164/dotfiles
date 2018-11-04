@@ -16,9 +16,6 @@ setopt append_history
 # 履歴ファイルに zsh の開始・終了時刻を記録する
 setopt extended_history
 
-# Android 用の設定
-export PATH=$PATH:/Users/hiroshi/Library/Android/sdk/platform-tools
-
 # nodebrew を使えるようにする
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
