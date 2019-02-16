@@ -18,6 +18,7 @@ setopt extended_history
 
 # nodebrew を使えるようにする
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export NODEBREW_ROOT=/usr/local/var/nodebrew
 
 # jEnv 用
 export PATH="$HOME/.jenv/bin:$PATH"
