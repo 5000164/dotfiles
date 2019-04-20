@@ -1,3 +1,6 @@
+# Homebrew 用
+export PATH="/usr/local/sbin:$PATH"
+
 # zplug 用
 source /usr/local/opt/zplug/init.zsh
 
