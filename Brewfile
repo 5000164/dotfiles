@@ -11,7 +11,6 @@ brew "gnu-sed", args: ["with-default-names"]
 brew "libevent"
 brew "libtool"
 brew "graphviz"
-brew "hugo"
 brew "jenv"
 brew "mkcert"
 brew "nodebrew"
