@@ -16,9 +16,6 @@ setopt append_history
 # 履歴ファイルに zsh の開始・終了時刻を記録する
 setopt extended_history
 
-# nodebrew を使えるようにする
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 # jEnv 用
 export PATH="$HOME/.jenv/bin:$PATH"
 
