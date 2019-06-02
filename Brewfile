@@ -1,6 +1,8 @@
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/core"
+brew "autoconf"
+brew "automake"
 brew "bashdb"
 brew "cmake"
 brew "coreutils"
