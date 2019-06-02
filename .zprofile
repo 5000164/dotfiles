@@ -25,3 +25,6 @@ export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Rust 用
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# to use nvm
+export NVM_DIR="$HOME/.nvm"
